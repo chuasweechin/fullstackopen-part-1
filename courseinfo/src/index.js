@@ -28,7 +28,7 @@ const Content = (props) => {
 const Part = (props) => {
     return(
         <li>
-            { props.part.name } { props.exercises }
+            { props.part.name } { props.part.exercises }
         </li>
     )
 }
